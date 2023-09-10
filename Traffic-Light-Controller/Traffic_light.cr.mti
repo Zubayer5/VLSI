@@ -1,0 +1,37 @@
+F:/Desktop/Ulka_Training/traffic_TOP.v {1 {vlog -work work -stats=none F:/Desktop/Ulka_Training/traffic_TOP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module traffic_TOP
+
+Top level modules:
+	traffic_TOP
+
+} {} {}} F:/Desktop/Ulka_Training/FSM.v {2 {vlog -work work -stats=none F:/Desktop/Ulka_Training/FSM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FSM_traffic
+** Warning: F:/Desktop/Ulka_Training/FSM.v(36): (vlog-2182) 'dir' might be read before written in always_comb or always @* block.
+
+Top level modules:
+	FSM_traffic
+
+} {} {}} F:/Desktop/Ulka_Training/Traffic_tb.sv {1 {vlog -work work -sv -stats=none F:/Desktop/Ulka_Training/Traffic_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module traffic_tb
+
+Top level modules:
+	traffic_tb
+
+} {} {}} F:/Desktop/Ulka_Training/Comparetor.v {1 {vlog -work work -stats=none F:/Desktop/Ulka_Training/Comparetor.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Comparetor
+
+Top level modules:
+	Comparetor
+
+} {} {}} F:/Desktop/Ulka_Training/Counter.v {1 {vlog -work work -stats=none F:/Desktop/Ulka_Training/Counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
+} {} {}}

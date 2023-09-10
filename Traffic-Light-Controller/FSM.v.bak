@@ -1,0 +1,24 @@
+
+module FSM_traffic ( input start, input clk,
+input rst,
+output reg r,
+output reg g,
+output reg y
+reg [1:0] pstate, nstate; reg dir, coul, cou2, cou4;
+-);
+parameter
+IDLE=2'b00,
+Red=2'b01,
+Yellow=2'b10,
+Green 2'b11;
+always@ (*) begin begin: NSL
+case (pstate)
+IDLE:begin
+if (start) begin
+nstate=Red;
+end
+else begin
+nstate IDLE;
+end
+Red:begin
+if (

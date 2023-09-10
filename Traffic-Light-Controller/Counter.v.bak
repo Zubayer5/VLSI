@@ -1,0 +1,19 @@
+module counter(
+	input wire en,
+	input wire reset,
+	input wire clk,
+	output reg count
+);
+always@(posedge clk)begin
+	if(~reset)begin
+		count<=0;
+	end
+	else begin
+		if(en)begin
+			count<=count+1;
+		end
+		else begin
+			count<=count;
+		end
+	end
+end
