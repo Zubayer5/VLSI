@@ -1,0 +1,7 @@
+class monitor;
+
+	function new(virtual Counter_Interface intf);
+		$display"monitor working";
+	endfunction
+endclass
+		

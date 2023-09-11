@@ -1,0 +1,7 @@
+class scoreboard;
+
+	function new();
+			$display"sb working";
+	endfunction
+endclass
+		

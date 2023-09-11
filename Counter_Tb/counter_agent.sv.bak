@@ -1,0 +1,10 @@
+class agent;
+driver dv;
+monitor mon;
+	function new(virtual Counter_Interface intf);
+		dv=new(intf);
+		mon=new(intf);
+		$display"ag working";
+	endfunction
+endclass
+		

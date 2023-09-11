@@ -1,0 +1,2852 @@
+# Reading pref.tcl
+# Loading project testbench
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:02:49 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error: ** while parsing file included at ./pac.sv(2)
+# ** at counter_driver.sv(48): 'load' already exists; must not be redefined as a task.
+# ** Error: (vlog-13051) ** while parsing file included at ./pac.sv(2)
+# ** at counter_driver.sv(57): near "00": Illegal digit for specified base in numeric constant.
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# ** Error: (vlog-13069) ./counter_tb.sv(25): near "task": syntax error, unexpected task.
+# End time: 10:02:51 on Aug 10,2023, Elapsed time: 0:00:02
+# Errors: 3, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:05:09 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# ** Error: (vlog-13069) ./counter_tb.sv(25): near "task": syntax error, unexpected task.
+# ** Error: (vlog-13069) ./counter_tb.sv(37): near "endtask": syntax error, unexpected endtask.
+# End time: 10:05:09 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:06:46 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# ** Error: (vlog-13069) ./counter_tb.sv(25): near "task": syntax error, unexpected task.
+# ** Error: (vlog-13069) ./counter_tb.sv(37): near "endtask": syntax error, unexpected endtask.
+# End time: 10:06:47 on Aug 10,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:07:42 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# ** Error: (vlog-13069) ./counter_tb.sv(25): near "task": syntax error, unexpected task.
+# ** Error: (vlog-13069) ./counter_tb.sv(37): near "endtask": syntax error, unexpected endtask.
+# End time: 10:07:42 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:09:34 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 10:09:34 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 10:10:40 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+# ** Error: (vsim-3043) Unresolved reference to 't1'.
+#    Time: 0 ps  Iteration: 0  Instance: /counter_tb File: ./counter_tb.sv Line: 23
+# Error loading design
+# End time: 10:10:40 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:13:05 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# ** Error: (vlog-13069) ./counter_tb.sv(26): near "task": syntax error, unexpected task.
+# ** Error: (vlog-13069) ./counter_tb.sv(38): near "endtask": syntax error, unexpected endtask.
+# End time: 10:13:06 on Aug 10,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:18:37 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# ** Error (suppressible): (vlog-13276) ./counter_tb.sv(27): Could not find field/method name (run_phase) in 't1' of 't1.run_phase'.
+# End time: 10:18:37 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:04 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# ** Error (suppressible): (vlog-13276) ./counter_tb.sv(27): Could not find field/method name (run_phase) in 't1' of 't1.run_phase'.
+# End time: 10:22:04 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:23:44 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error: ** while parsing file included at ./pac.sv(2)
+# ** at counter_driver.sv(21): (vlog-2730) Undefined variable: 'a'.
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# ** Error (suppressible): (vlog-13276) ./counter_tb.sv(27): Could not find field/method name (run_phase) in 't1' of 't1.run_phase'.
+# End time: 10:23:45 on Aug 10,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:26:00 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# ** Error (suppressible): (vlog-13276) ./counter_tb.sv(27): Could not find field/method name (run_phase) in 't1' of 't1.run_phase'.
+# End time: 10:26:00 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:28:12 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 10:28:12 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Compile of counter_enviroment.sv failed with 4 errors.
+# Compile of counter_scoreboard.sv failed with 2 errors.
+# Compile of counter_monitor.sv failed with 3 errors.
+# Compile of counter_testcl.sv failed with 2 errors.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:51:24 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(4)
+# ** at counter_monitor.sv(23): near ",": syntax error, unexpected ',', expecting '\''.
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(6)
+# ** at counter_scoreboard.sv(9): near "endfunction": syntax error, unexpected endfunction, expecting ';'.
+# ** Error: ** while parsing file included at ./pac.sv(6)
+# ** at counter_scoreboard.sv(13): (vlog-2730) Undefined variable: 'reset'.
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(6)
+# ** at counter_scoreboard.sv(24): near "endtask": syntax error, unexpected endtask, expecting endfunction.
+# ** Error (suppressible): ** while parsing file included at ./pac.sv(7)
+# ** at counter_enviroment.sv(3): (vlog-2388) 'mbx' already declared in this scope (scoreboard) at counter_scoreboard.sv(2).
+# ** Error: ** while parsing file included at ./pac.sv(7)
+# ** at counter_enviroment.sv(3): (vlog-13311) 'mbx' already declared in this scope ('scoreboard') with a type.
+# ** Error: ** while parsing file included at ./pac.sv(7)
+# ** at counter_enviroment.sv(5): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(2): Invalid type 'enviroment'. Please check the type of the variable 'e'.
+# ** Error: ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(4): (vlog-2730) Undefined variable: 'e'.
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# End time: 17:51:24 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:53:29 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(6)
+# ** at counter_scoreboard.sv(9): near "endfunction": syntax error, unexpected endfunction, expecting ';'.
+# ** Error: ** while parsing file included at ./pac.sv(6)
+# ** at counter_scoreboard.sv(13): (vlog-2730) Undefined variable: 'reset'.
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(6)
+# ** at counter_scoreboard.sv(24): near "endtask": syntax error, unexpected endtask, expecting endfunction.
+# ** Error (suppressible): ** while parsing file included at ./pac.sv(7)
+# ** at counter_enviroment.sv(3): (vlog-2388) 'mbx' already declared in this scope (scoreboard) at counter_scoreboard.sv(2).
+# ** Error: ** while parsing file included at ./pac.sv(7)
+# ** at counter_enviroment.sv(3): (vlog-13311) 'mbx' already declared in this scope ('scoreboard') with a type.
+# ** Error: ** while parsing file included at ./pac.sv(7)
+# ** at counter_enviroment.sv(5): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(2): Invalid type 'enviroment'. Please check the type of the variable 'e'.
+# ** Error: ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(4): (vlog-2730) Undefined variable: 'e'.
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# End time: 17:53:30 on Aug 10,2023, Elapsed time: 0:00:01
+# Errors: 8, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:01:30 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error: ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(2): Invalid type 'enviroment'. Please check the type of the variable 'e'.
+# ** Error: ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(4): (vlog-2730) Undefined variable: 'e'.
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# End time: 18:01:31 on Aug 10,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:02:36 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error: ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(2): Invalid type 'envirnoment'. Please check the type of the variable 'e'.
+# ** Error: ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(4): (vlog-2730) Undefined variable: 'e'.
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# End time: 18:02:36 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:03:08 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error (suppressible): counter_monitor.sv(15): (vlog-7027) The name ('intf.clk') was not found in the current scope.  Please verify the spelling of the name 'intf.clk'.
+# ** Error (suppressible): counter_monitor.sv(17): (vlog-7027) The name ('intf.data_in') was not found in the current scope.  Please verify the spelling of the name 'intf.data_in'.
+# ** Error (suppressible): counter_monitor.sv(18): (vlog-7027) The name ('intf.load') was not found in the current scope.  Please verify the spelling of the name 'intf.load'.
+# ** Error (suppressible): counter_monitor.sv(19): (vlog-7027) The name ('intf.enable') was not found in the current scope.  Please verify the spelling of the name 'intf.enable'.
+# ** Error (suppressible): counter_monitor.sv(20): (vlog-7027) The name ('intf.up_down') was not found in the current scope.  Please verify the spelling of the name 'intf.up_down'.
+# ** Error (suppressible): counter_monitor.sv(21): (vlog-7027) The name ('intf.reset') was not found in the current scope.  Please verify the spelling of the name 'intf.reset'.
+# ** Error (suppressible): counter_monitor.sv(22): (vlog-7027) The name ('intf.data_out') was not found in the current scope.  Please verify the spelling of the name 'intf.data_out'.
+# ** Error (suppressible): counter_monitor.sv(8): (vlog-13215) Arg. 'mbx' of 'monitor_capture':  Cannot assign an unpacked type 'class handle (void)' to a packed type 'reg'.
+# ** Error (suppressible): counter_agent.sv(6): (vlog-13266) No actual value has been specified for a formal argument 'mbx' that does not have a default value.
+# ** Warning: counter_scoreboard.sv(8): (vlog-2875) Task "scb_cap" is being called in function "new".
+# ** Error (suppressible): counter_enviroment.sv(7): (vlog-13266) No actual value has been specified for a formal argument 'pkt' that does not have a default value.
+# ** Error: counter_enviroment.sv(8): Number of actuals and formals does not match in function call.
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# End time: 18:03:08 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 1
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:05:35 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error (suppressible): counter_monitor.sv(15): (vlog-7027) The name ('intf.clk') was not found in the current scope.  Please verify the spelling of the name 'intf.clk'.
+# ** Error (suppressible): counter_monitor.sv(17): (vlog-7027) The name ('intf.data_in') was not found in the current scope.  Please verify the spelling of the name 'intf.data_in'.
+# ** Error (suppressible): counter_monitor.sv(18): (vlog-7027) The name ('intf.load') was not found in the current scope.  Please verify the spelling of the name 'intf.load'.
+# ** Error (suppressible): counter_monitor.sv(19): (vlog-7027) The name ('intf.enable') was not found in the current scope.  Please verify the spelling of the name 'intf.enable'.
+# ** Error (suppressible): counter_monitor.sv(20): (vlog-7027) The name ('intf.up_down') was not found in the current scope.  Please verify the spelling of the name 'intf.up_down'.
+# ** Error (suppressible): counter_monitor.sv(21): (vlog-7027) The name ('intf.reset') was not found in the current scope.  Please verify the spelling of the name 'intf.reset'.
+# ** Error (suppressible): counter_monitor.sv(22): (vlog-7027) The name ('intf.data_out') was not found in the current scope.  Please verify the spelling of the name 'intf.data_out'.
+# ** Error (suppressible): counter_monitor.sv(8): (vlog-13215) Arg. 'mbx' of 'monitor_capture':  Cannot assign an unpacked type 'class handle (void)' to a packed type 'reg'.
+# ** Error (suppressible): counter_agent.sv(6): (vlog-13266) No actual value has been specified for a formal argument 'mbx' that does not have a default value.
+# ** Warning: counter_scoreboard.sv(8): (vlog-2875) Task "scb_cap" is being called in function "new".
+# ** Error (suppressible): counter_enviroment.sv(7): (vlog-13266) No actual value has been specified for a formal argument 'pkt' that does not have a default value.
+# ** Error: counter_enviroment.sv(8): Number of actuals and formals does not match in function call.
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# End time: 18:05:35 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 1
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:06:48 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error (suppressible): counter_monitor.sv(15): (vlog-7027) The name ('intf.clk') was not found in the current scope.  Please verify the spelling of the name 'intf.clk'.
+# ** Error (suppressible): counter_monitor.sv(17): (vlog-7027) The name ('intf.data_in') was not found in the current scope.  Please verify the spelling of the name 'intf.data_in'.
+# ** Error (suppressible): counter_monitor.sv(18): (vlog-7027) The name ('intf.load') was not found in the current scope.  Please verify the spelling of the name 'intf.load'.
+# ** Error (suppressible): counter_monitor.sv(19): (vlog-7027) The name ('intf.enable') was not found in the current scope.  Please verify the spelling of the name 'intf.enable'.
+# ** Error (suppressible): counter_monitor.sv(20): (vlog-7027) The name ('intf.up_down') was not found in the current scope.  Please verify the spelling of the name 'intf.up_down'.
+# ** Error (suppressible): counter_monitor.sv(21): (vlog-7027) The name ('intf.reset') was not found in the current scope.  Please verify the spelling of the name 'intf.reset'.
+# ** Error (suppressible): counter_monitor.sv(22): (vlog-7027) The name ('intf.data_out') was not found in the current scope.  Please verify the spelling of the name 'intf.data_out'.
+# ** Error (suppressible): counter_monitor.sv(8): (vlog-13215) Arg. 'mbx' of 'monitor_capture':  Cannot assign an unpacked type 'class handle (void)' to a packed type 'reg'.
+# ** Error (suppressible): counter_agent.sv(6): (vlog-13266) No actual value has been specified for a formal argument 'mbx' that does not have a default value.
+# ** Error (suppressible): counter_enviroment.sv(7): (vlog-13266) No actual value has been specified for a formal argument 'pkt' that does not have a default value.
+# ** Error: counter_enviroment.sv(8): Number of actuals and formals does not match in function call.
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# End time: 18:06:48 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:07:05 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error (suppressible): counter_monitor.sv(15): (vlog-7027) The name ('intf.clk') was not found in the current scope.  Please verify the spelling of the name 'intf.clk'.
+# ** Error (suppressible): counter_monitor.sv(17): (vlog-7027) The name ('intf.data_in') was not found in the current scope.  Please verify the spelling of the name 'intf.data_in'.
+# ** Error (suppressible): counter_monitor.sv(18): (vlog-7027) The name ('intf.load') was not found in the current scope.  Please verify the spelling of the name 'intf.load'.
+# ** Error (suppressible): counter_monitor.sv(19): (vlog-7027) The name ('intf.enable') was not found in the current scope.  Please verify the spelling of the name 'intf.enable'.
+# ** Error (suppressible): counter_monitor.sv(20): (vlog-7027) The name ('intf.up_down') was not found in the current scope.  Please verify the spelling of the name 'intf.up_down'.
+# ** Error (suppressible): counter_monitor.sv(21): (vlog-7027) The name ('intf.reset') was not found in the current scope.  Please verify the spelling of the name 'intf.reset'.
+# ** Error (suppressible): counter_monitor.sv(22): (vlog-7027) The name ('intf.data_out') was not found in the current scope.  Please verify the spelling of the name 'intf.data_out'.
+# ** Error (suppressible): counter_monitor.sv(8): (vlog-13215) Arg. 'mbx' of 'monitor_capture':  Cannot assign an unpacked type 'class handle (void)' to a packed type 'reg'.
+# ** Error (suppressible): counter_agent.sv(6): (vlog-13266) No actual value has been specified for a formal argument 'mbx' that does not have a default value.
+# ** Error (suppressible): counter_enviroment.sv(7): (vlog-13266) No actual value has been specified for a formal argument 'pkt' that does not have a default value.
+# ** Error: counter_enviroment.sv(8): Number of actuals and formals does not match in function call.
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# End time: 18:07:05 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:46 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error (suppressible): counter_monitor.sv(15): (vlog-7027) The name ('intf.clk') was not found in the current scope.  Please verify the spelling of the name 'intf.clk'.
+# ** Error (suppressible): counter_monitor.sv(17): (vlog-7027) The name ('intf.data_in') was not found in the current scope.  Please verify the spelling of the name 'intf.data_in'.
+# ** Error (suppressible): counter_monitor.sv(18): (vlog-7027) The name ('intf.load') was not found in the current scope.  Please verify the spelling of the name 'intf.load'.
+# ** Error (suppressible): counter_monitor.sv(19): (vlog-7027) The name ('intf.enable') was not found in the current scope.  Please verify the spelling of the name 'intf.enable'.
+# ** Error (suppressible): counter_monitor.sv(20): (vlog-7027) The name ('intf.up_down') was not found in the current scope.  Please verify the spelling of the name 'intf.up_down'.
+# ** Error (suppressible): counter_monitor.sv(21): (vlog-7027) The name ('intf.reset') was not found in the current scope.  Please verify the spelling of the name 'intf.reset'.
+# ** Error (suppressible): counter_monitor.sv(22): (vlog-7027) The name ('intf.data_out') was not found in the current scope.  Please verify the spelling of the name 'intf.data_out'.
+# ** Error (suppressible): counter_monitor.sv(8): (vlog-13215) Arg. 'mbx' of 'monitor_capture':  Cannot assign an unpacked type 'class handle (void)' to a packed type 'reg'.
+# ** Error (suppressible): counter_enviroment.sv(7): (vlog-13266) No actual value has been specified for a formal argument 'pkt' that does not have a default value.
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# ** Error (suppressible): (vlog-13276) ./counter_tb.sv(26): Could not find field/method name (run_phase) in 't1' of 't1.run_phase'.
+# End time: 18:08:46 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:14:51 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error: (vlog-13004) counter_monitor.sv(3.0): syntax error, unexpected type name. The type 'mailbox' is defined at $MODEL_TECH/../verilog_src/std/std.sv(19).
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# ** Error (suppressible): (vlog-13276) ./counter_tb.sv(26): Could not find field/method name (run_phase) in 't1' of 't1.run_phase'.
+# End time: 18:14:51 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:16:23 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error: counter_monitor.sv(6): 'new' expression can only be assigned to a class or covergroup variable.
+# ./pac.sv(9): Verilog Compiler exiting
+# End time: 18:16:24 on Aug 10,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:17:30 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error: counter_monitor.sv(6): 'new' expression can only be assigned to a class or covergroup variable.
+# ./pac.sv(9): Verilog Compiler exiting
+# End time: 18:17:30 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:17:39 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error (suppressible): counter_monitor.sv(10): (vlog-13215) Arg. 'mbx' of 'monitor_capture':  Cannot assign an unpacked type 'class handle (void)' to a packed type 'reg'.
+# ** Error (suppressible): counter_enviroment.sv(7): (vlog-13266) No actual value has been specified for a formal argument 'pkt' that does not have a default value.
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# ** Error (suppressible): (vlog-13276) ./counter_tb.sv(26): Could not find field/method name (run_phase) in 't1' of 't1.run_phase'.
+# End time: 18:17:39 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:14 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error (suppressible): counter_enviroment.sv(7): (vlog-13266) No actual value has been specified for a formal argument 'pkt' that does not have a default value.
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# ** Error (suppressible): (vlog-13276) ./counter_tb.sv(26): Could not find field/method name (run_phase) in 't1' of 't1.run_phase'.
+# End time: 18:20:14 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:45 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error (suppressible): counter_enviroment.sv(7): (vlog-13266) No actual value has been specified for a formal argument 'pkt' that does not have a default value.
+# -- Compiling module counter
+# -- Compiling module counter_tb
+# -- Importing package pac
+# End time: 18:20:46 on Aug 10,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+# Compile of counter_testcl.sv failed with 2 errors.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:30:13 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 18:30:13 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 18:31:34 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+add wave sim:/counter_tb/intf/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Zubayer  Hostname: DESKTOP-Q3IF0PJ  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlfttd9an7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfttd9an7
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 60000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 80000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 100000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 120000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 140000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 160000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 180000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 200000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 220000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 240000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 260000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:257}
+# 280000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:258}
+# 300000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:259}
+# 320000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:260}
+# 340000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:261}
+# 360000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 380000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 400000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 420000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 440000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 460000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 480000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 500000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 520000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 540000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 560000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 580000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 18:38:21 on Aug 10,2023, Elapsed time: 0:06:47
+# Errors: 0, Warnings: 9
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:38:24 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error: counter_scoreboard.sv(14): Component name 'mbx' does not refer to a scope.
+# ** Error: counter_scoreboard.sv(14): Component name 'mbx' does not refer to a scope.
+# ** Error (suppressible): counter_scoreboard.sv(9): (vlog-13215) Arg. 'mbx' of 'scb_cap':  Cannot assign an unpacked type 'class handle (void)' to a packed type 'reg'.
+# -- Compiling module counter_tb
+# -- Importing package pac
+# End time: 18:38:25 on Aug 10,2023, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:38:47 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 18:38:47 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:41:11 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 18:41:11 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 18:41:21 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+add wave sim:/counter_tb/intf/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Zubayer  Hostname: DESKTOP-Q3IF0PJ  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlftk1i0nc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftk1i0nc
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 60000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 80000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 100000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 120000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 140000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 160000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 180000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 200000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 220000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 240000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 260000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:257}
+# 280000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:258}
+# 300000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:259}
+# 320000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:260}
+# 340000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:261}
+# 360000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 380000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 400000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 420000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 440000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 460000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 480000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 500000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 520000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 540000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 560000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 580000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 19:31:38 on Aug 10,2023, Elapsed time: 0:50:17
+# Errors: 0, Warnings: 3
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:31:47 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error (suppressible): counter_scoreboard.sv(22): (vlog-7027) The name ('pkt') was not found in the current scope.  Please verify the spelling of the name 'pkt'.
+# -- Compiling module counter_tb
+# -- Importing package pac
+# End time: 19:31:48 on Aug 10,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:33:12 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 19:33:12 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 19:33:20 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+add wave -position end sim:/counter_tb/intf/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Zubayer  Hostname: DESKTOP-Q3IF0PJ  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlftcacggc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftcacggc
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 60000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 80000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 100000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 120000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 140000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 160000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 180000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 200000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 220000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 240000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 260000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:257}
+# 280000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:258}
+# 300000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:259}
+# 320000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:260}
+# 340000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:261}
+# 360000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 380000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 400000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 420000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 440000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 460000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 480000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 500000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 520000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 540000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 560000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 580000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 19:35:18 on Aug 10,2023, Elapsed time: 0:01:58
+# Errors: 0, Warnings: 3
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:35:21 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 19:35:21 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 19:35:25 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+add wave -position end sim:/counter_tb/intf/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Zubayer  Hostname: DESKTOP-Q3IF0PJ  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlft2af6ti".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2af6ti
+add wave -position end sim:/counter_tb/intf/* | run -all
+# ** UI-Msg: (vish-4014) No objects found matching '|'.
+# ** UI-Msg: (vish-4014) No objects found matching 'run'.
+# Missing signal name or pattern.
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 60000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @               60000 Load Test Pass
+# 60000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 80000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @               80000 Load Test Pass
+# 80000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 100000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              100000 Load Test Pass
+# 100000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 120000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              120000 Load Test Pass
+# 120000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 140000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              140000 Load Test Pass
+# 140000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 160000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              160000 Load Test Pass
+# 160000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 180000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              180000 Load Test Pass
+# 180000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 200000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              200000 Load Test Pass
+# 200000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 220000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              220000 Load Test Pass
+# 220000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 240000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              240000 Load Test Pass
+# 240000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 260000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:257}
+# 260000 SCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:257}
+# 280000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:258}
+# 280000 SCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:258}
+# 300000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:259}
+# 300000 SCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:259}
+# 320000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:260}
+# 320000 SCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:260}
+# 340000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:261}
+# 340000 SCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:261}
+# 360000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 360000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 380000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 380000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 400000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 400000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 420000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 420000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 440000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 440000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 460000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 460000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 480000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 480000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 500000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 500000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 520000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 520000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 540000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 540000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 560000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 560000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 580000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 580000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 20:00:34 on Aug 10,2023, Elapsed time: 0:25:09
+# Errors: 0, Warnings: 3
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:04:11 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(6)
+# ** at counter_scoreboard.sv(25): near "=": syntax error, unexpected '='.
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(6)
+# ** at counter_scoreboard.sv(34): near "=": syntax error, unexpected '='.
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(6)
+# ** at counter_scoreboard.sv(43): near "end": syntax error, unexpected end.
+# ** Error (suppressible): ** while parsing file included at ./pac.sv(7)
+# ** at counter_enviroment.sv(3): (vlog-2388) 'mbx' already declared in this scope (scb_cap) at counter_scoreboard.sv(10).
+# ** Error: ** while parsing file included at ./pac.sv(7)
+# ** at counter_enviroment.sv(5): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(7)
+# ** at counter_enviroment.sv(10): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(2): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(4): (vlog-2730) Undefined variable: 'e'.
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(5): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# -- Compiling module counter_tb
+# -- Importing package pac
+# End time: 20:04:11 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:05:41 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(6)
+# ** at counter_scoreboard.sv(46): near "end": syntax error, unexpected end, expecting ';'.
+# ** Error: ** while parsing file included at ./pac.sv(7)
+# ** at counter_enviroment.sv(5): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(7)
+# ** at counter_enviroment.sv(10): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(2): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(4): (vlog-2730) Undefined variable: 'e'.
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(5): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(14): near "endtask": syntax error, unexpected endtask.
+# ** Error: ./counter_tb.sv(7): Illegal declaration after the statement near line '2'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ./counter_tb.sv(11): Checker 'Counter_Interface' not found.  Instantiation 'intf' must be of a visible checker.
+# 
+# ** Error: ./counter_tb.sv(20): Checker 'counter' not found.  Instantiation 'DUT' must be of a visible checker.
+# 
+# ** Error: (vlog-13069) ./counter_tb.sv(23): near "initial": syntax error, unexpected initial.
+# ** Error: ./counter_tb.sv(25): (vlog-2730) Undefined variable: 't1'.
+# ** Error: (vlog-13069) ./counter_tb.sv(28): near "initial": syntax error, unexpected initial.
+# ** Error: (vlog-13069) ./counter_tb.sv(31): near "end": syntax error, unexpected end.
+# End time: 20:05:41 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 14, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:08:36 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 20:08:36 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 20:08:45 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+add wave -position end sim:/counter_tb/intf/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Zubayer  Hostname: DESKTOP-Q3IF0PJ  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlftfxsjcw".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftfxsjcw
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 60000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @               60000 Load Test Pass
+# 60000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 80000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @               80000 Load Test Pass
+# 80000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 100000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              100000 Load Test Pass
+# 100000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 120000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              120000 Load Test Pass
+# 120000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 140000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              140000 Load Test Pass
+# 140000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 160000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              160000 Load Test Pass
+# 160000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 180000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              180000 Load Test Pass
+# 180000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 200000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              200000 Load Test Pass
+# 200000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 220000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              220000 Load Test Pass
+# 220000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 240000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              240000 Load Test Pass
+# 240000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 260000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:257}
+# @              260000 countup Test Pass
+# 260000 SCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:257}
+# 280000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:258}
+# @              280000 countup Test Fail :: Exp Data:1 Rec Data:258
+# 280000 SCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:258}
+# 300000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:259}
+# @              300000 countup Test Fail :: Exp Data:1 Rec Data:259
+# 300000 SCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:259}
+# 320000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:260}
+# @              320000 countup Test Fail :: Exp Data:1 Rec Data:260
+# 320000 SCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:260}
+# 340000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:261}
+# @              340000 countup Test Fail :: Exp Data:1 Rec Data:261
+# 340000 SCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:261}
+# 360000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 360000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 380000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 380000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 400000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 400000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 420000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 420000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 440000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 440000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 460000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 460000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 480000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 480000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 500000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 500000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 520000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 520000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 540000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 540000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 560000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 560000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 580000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 580000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 20:11:58 on Aug 10,2023, Elapsed time: 0:03:13
+# Errors: 0, Warnings: 3
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:12:07 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 20:12:08 on Aug 10,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 20:12:13 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+add wave -position end sim:/counter_tb/intf/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Zubayer  Hostname: DESKTOP-Q3IF0PJ  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlft0yq5fb".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0yq5fb
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 60000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @               60000 Load Test Pass
+# 60000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 80000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @               80000 Load Test Pass
+# 80000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 100000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              100000 Load Test Pass
+# 100000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 120000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              120000 Load Test Pass
+# 120000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 140000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              140000 Load Test Pass
+# 140000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 160000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              160000 Load Test Pass
+# 160000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 180000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              180000 Load Test Pass
+# 180000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 200000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              200000 Load Test Pass
+# 200000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 220000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              220000 Load Test Pass
+# 220000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 240000 MTCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# @              240000 Load Test Pass
+# 240000 SCP Data:'{data_in:256, load:1, enable:1, up_down:0, reset:1, data_out:256}
+# 260000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:257}
+# @              260000 countup Test Pass
+# 260000 SCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:257}
+# 280000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:258}
+# @              280000 countup Test Fail :: Exp Data:1 Rec Data:258
+# 280000 SCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:258}
+# 300000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:259}
+# @              300000 countup Test Fail :: Exp Data:1 Rec Data:259
+# 300000 SCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:259}
+# 320000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:260}
+# @              320000 countup Test Fail :: Exp Data:1 Rec Data:260
+# 320000 SCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:260}
+# 340000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:261}
+# @              340000 countup Test Fail :: Exp Data:1 Rec Data:261
+# 340000 SCP Data:'{data_in:0, load:0, enable:1, up_down:1, reset:1, data_out:261}
+# 360000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 360000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 380000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 380000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 400000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 400000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 420000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 420000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 440000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 440000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 460000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 460000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 480000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 480000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 500000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 500000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 520000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 520000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 540000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 540000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 560000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 560000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 580000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# 580000 SCP Data:'{data_in:0, load:0, enable:0, up_down:1, reset:1, data_out:261}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 20:21:18 on Aug 10,2023, Elapsed time: 0:09:05
+# Errors: 0, Warnings: 3
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:21:20 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 20:21:21 on Aug 10,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 20:21:25 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+add wave -position end sim:/counter_tb/intf/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Zubayer  Hostname: DESKTOP-Q3IF0PJ  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlftk4b68y".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftk4b68y
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 60000 MTCP Data:'{data_in:26524, load:1, enable:1, up_down:0, reset:1, data_out:26524}
+# @               60000 Load Test Pass
+# 60000 SCP Data:'{data_in:26524, load:1, enable:1, up_down:0, reset:1, data_out:26524}
+# 80000 MTCP Data:'{data_in:47644, load:1, enable:1, up_down:0, reset:1, data_out:47644}
+# @               80000 Load Test Pass
+# 80000 SCP Data:'{data_in:47644, load:1, enable:1, up_down:0, reset:1, data_out:47644}
+# 100000 MTCP Data:'{data_in:65000, load:1, enable:1, up_down:0, reset:1, data_out:65000}
+# @              100000 Load Test Pass
+# 100000 SCP Data:'{data_in:65000, load:1, enable:1, up_down:0, reset:1, data_out:65000}
+# 120000 MTCP Data:'{data_in:9127, load:1, enable:1, up_down:0, reset:1, data_out:9127}
+# @              120000 Load Test Pass
+# 120000 SCP Data:'{data_in:9127, load:1, enable:1, up_down:0, reset:1, data_out:9127}
+# 140000 MTCP Data:'{data_in:18198, load:1, enable:1, up_down:0, reset:1, data_out:18198}
+# @              140000 Load Test Pass
+# 140000 SCP Data:'{data_in:18198, load:1, enable:1, up_down:0, reset:1, data_out:18198}
+# 160000 MTCP Data:'{data_in:57796, load:1, enable:1, up_down:0, reset:1, data_out:57796}
+# @              160000 Load Test Pass
+# 160000 SCP Data:'{data_in:57796, load:1, enable:1, up_down:0, reset:1, data_out:57796}
+# 180000 MTCP Data:'{data_in:62208, load:1, enable:1, up_down:0, reset:1, data_out:62208}
+# @              180000 Load Test Pass
+# 180000 SCP Data:'{data_in:62208, load:1, enable:1, up_down:0, reset:1, data_out:62208}
+# 200000 MTCP Data:'{data_in:15705, load:1, enable:1, up_down:0, reset:1, data_out:15705}
+# @              200000 Load Test Pass
+# 200000 SCP Data:'{data_in:15705, load:1, enable:1, up_down:0, reset:1, data_out:15705}
+# 220000 MTCP Data:'{data_in:19960, load:1, enable:1, up_down:0, reset:1, data_out:19960}
+# @              220000 Load Test Pass
+# 220000 SCP Data:'{data_in:19960, load:1, enable:1, up_down:0, reset:1, data_out:19960}
+# 240000 MTCP Data:'{data_in:19451, load:1, enable:1, up_down:0, reset:1, data_out:19451}
+# @              240000 Load Test Pass
+# 240000 SCP Data:'{data_in:19451, load:1, enable:1, up_down:0, reset:1, data_out:19451}
+# 260000 MTCP Data:'{data_in:19451, load:0, enable:1, up_down:1, reset:1, data_out:19452}
+# @              260000 countup Test Pass
+# 260000 SCP Data:'{data_in:19451, load:0, enable:1, up_down:1, reset:1, data_out:19452}
+# 280000 MTCP Data:'{data_in:45841, load:1, enable:1, up_down:1, reset:1, data_out:19453}
+# @              280000 Load Test Fail :: Exp Data:45841 Rec Data:45841
+# 280000 SCP Data:'{data_in:45841, load:1, enable:1, up_down:1, reset:1, data_out:19453}
+# 300000 MTCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 300000 SCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 320000 MTCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 320000 SCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 340000 MTCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 340000 SCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 360000 MTCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 360000 SCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 380000 MTCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 380000 SCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 400000 MTCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 400000 SCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 420000 MTCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 420000 SCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 440000 MTCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 440000 SCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 460000 MTCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 460000 SCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 480000 MTCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 480000 SCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 500000 MTCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 500000 SCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 520000 MTCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 520000 SCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 540000 MTCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 540000 SCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 560000 MTCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 560000 SCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 580000 MTCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# 580000 SCP Data:'{data_in:45841, load:0, enable:0, up_down:1, reset:1, data_out:19453}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 20:23:00 on Aug 10,2023, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 3
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:23:03 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(8): near ":": syntax error, unexpected ':', expecting ')' or ','.
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(10): near ":": syntax error, unexpected ':', expecting ')' or ','.
+# -- Compiling module counter_tb
+# -- Importing package pac
+# End time: 20:23:03 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:25:58 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(8): near ":": syntax error, unexpected ':', expecting ')' or ','.
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(10): near ":": syntax error, unexpected ':', expecting ')' or ','.
+# -- Compiling module counter_tb
+# -- Importing package pac
+# End time: 20:25:58 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:00 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 20:27:01 on Aug 10,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 20:27:05 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+add wave -position end sim:/counter_tb/intf/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Zubayer  Hostname: DESKTOP-Q3IF0PJ  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlftmk5c8y".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmk5c8y
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 60000 MTCP Data:'{data_in:325, load:1, enable:1, up_down:0, reset:1, data_out:325}
+# @               60000 Load Test Pass
+# 60000 SCP Data:'{data_in:325, load:1, enable:1, up_down:0, reset:1, data_out:325}
+# 80000 MTCP Data:'{data_in:241, load:1, enable:1, up_down:0, reset:1, data_out:241}
+# @               80000 Load Test Pass
+# 80000 SCP Data:'{data_in:241, load:1, enable:1, up_down:0, reset:1, data_out:241}
+# 100000 MTCP Data:'{data_in:41, load:1, enable:1, up_down:0, reset:1, data_out:41}
+# @              100000 Load Test Pass
+# 100000 SCP Data:'{data_in:41, load:1, enable:1, up_down:0, reset:1, data_out:41}
+# 120000 MTCP Data:'{data_in:20, load:1, enable:1, up_down:0, reset:1, data_out:20}
+# @              120000 Load Test Pass
+# 120000 SCP Data:'{data_in:20, load:1, enable:1, up_down:0, reset:1, data_out:20}
+# 140000 MTCP Data:'{data_in:107, load:1, enable:1, up_down:0, reset:1, data_out:107}
+# @              140000 Load Test Pass
+# 140000 SCP Data:'{data_in:107, load:1, enable:1, up_down:0, reset:1, data_out:107}
+# 160000 MTCP Data:'{data_in:161, load:1, enable:1, up_down:0, reset:1, data_out:161}
+# @              160000 Load Test Pass
+# 160000 SCP Data:'{data_in:161, load:1, enable:1, up_down:0, reset:1, data_out:161}
+# 180000 MTCP Data:'{data_in:117, load:1, enable:1, up_down:0, reset:1, data_out:117}
+# @              180000 Load Test Pass
+# 180000 SCP Data:'{data_in:117, load:1, enable:1, up_down:0, reset:1, data_out:117}
+# 200000 MTCP Data:'{data_in:414, load:1, enable:1, up_down:0, reset:1, data_out:414}
+# @              200000 Load Test Pass
+# 200000 SCP Data:'{data_in:414, load:1, enable:1, up_down:0, reset:1, data_out:414}
+# 220000 MTCP Data:'{data_in:21, load:1, enable:1, up_down:0, reset:1, data_out:21}
+# @              220000 Load Test Pass
+# 220000 SCP Data:'{data_in:21, load:1, enable:1, up_down:0, reset:1, data_out:21}
+# 240000 MTCP Data:'{data_in:188, load:1, enable:1, up_down:0, reset:1, data_out:188}
+# @              240000 Load Test Pass
+# 240000 SCP Data:'{data_in:188, load:1, enable:1, up_down:0, reset:1, data_out:188}
+# 260000 MTCP Data:'{data_in:188, load:0, enable:1, up_down:1, reset:1, data_out:189}
+# @              260000 countup Test Pass
+# 260000 SCP Data:'{data_in:188, load:0, enable:1, up_down:1, reset:1, data_out:189}
+# 280000 MTCP Data:'{data_in:166, load:1, enable:1, up_down:1, reset:1, data_out:190}
+# @              280000 Load Test Fail :: Exp Data:166 Rec Data:166
+# 280000 SCP Data:'{data_in:166, load:1, enable:1, up_down:1, reset:1, data_out:190}
+# 300000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 300000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 320000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 320000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 340000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 340000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 360000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 360000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 380000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 380000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 400000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 400000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 420000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 420000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 440000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 440000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 460000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 460000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 480000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 480000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 500000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 500000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 520000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 520000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 540000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 540000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 560000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 560000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 580000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# 580000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:190}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 20:30:05 on Aug 10,2023, Elapsed time: 0:03:00
+# Errors: 0, Warnings: 3
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:30:17 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 20:30:17 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+add wave -position end sim:/counter_tb/intf/*
+# Unrecognized dataset prefix: sim
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 20:30:34 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+add wave -position end sim:/counter_tb/intf/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Zubayer  Hostname: DESKTOP-Q3IF0PJ  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlftw21zec".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftw21zec
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 60000 MTCP Data:'{data_in:325, load:1, enable:1, up_down:0, reset:1, data_out:325}
+# @               60000 Load Test Pass
+# 60000 SCP Data:'{data_in:325, load:1, enable:1, up_down:0, reset:1, data_out:325}
+# 80000 MTCP Data:'{data_in:241, load:1, enable:1, up_down:0, reset:1, data_out:241}
+# @               80000 Load Test Pass
+# 80000 SCP Data:'{data_in:241, load:1, enable:1, up_down:0, reset:1, data_out:241}
+# 100000 MTCP Data:'{data_in:41, load:1, enable:1, up_down:0, reset:1, data_out:41}
+# @              100000 Load Test Pass
+# 100000 SCP Data:'{data_in:41, load:1, enable:1, up_down:0, reset:1, data_out:41}
+# 120000 MTCP Data:'{data_in:20, load:1, enable:1, up_down:0, reset:1, data_out:20}
+# @              120000 Load Test Pass
+# 120000 SCP Data:'{data_in:20, load:1, enable:1, up_down:0, reset:1, data_out:20}
+# 140000 MTCP Data:'{data_in:107, load:1, enable:1, up_down:0, reset:1, data_out:107}
+# @              140000 Load Test Pass
+# 140000 SCP Data:'{data_in:107, load:1, enable:1, up_down:0, reset:1, data_out:107}
+# 160000 MTCP Data:'{data_in:161, load:1, enable:1, up_down:0, reset:1, data_out:161}
+# @              160000 Load Test Pass
+# 160000 SCP Data:'{data_in:161, load:1, enable:1, up_down:0, reset:1, data_out:161}
+# 180000 MTCP Data:'{data_in:117, load:1, enable:1, up_down:0, reset:1, data_out:117}
+# @              180000 Load Test Pass
+# 180000 SCP Data:'{data_in:117, load:1, enable:1, up_down:0, reset:1, data_out:117}
+# 200000 MTCP Data:'{data_in:414, load:1, enable:1, up_down:0, reset:1, data_out:414}
+# @              200000 Load Test Pass
+# 200000 SCP Data:'{data_in:414, load:1, enable:1, up_down:0, reset:1, data_out:414}
+# 220000 MTCP Data:'{data_in:21, load:1, enable:1, up_down:0, reset:1, data_out:21}
+# @              220000 Load Test Pass
+# 220000 SCP Data:'{data_in:21, load:1, enable:1, up_down:0, reset:1, data_out:21}
+# 240000 MTCP Data:'{data_in:188, load:1, enable:1, up_down:0, reset:1, data_out:188}
+# @              240000 Load Test Pass
+# 240000 SCP Data:'{data_in:188, load:1, enable:1, up_down:0, reset:1, data_out:188}
+# 260000 MTCP Data:'{data_in:188, load:0, enable:1, up_down:1, reset:1, data_out:189}
+# @              260000 countup Test Pass
+# 260000 SCP Data:'{data_in:188, load:0, enable:1, up_down:1, reset:1, data_out:189}
+# 280000 MTCP Data:'{data_in:166, load:1, enable:1, up_down:1, reset:1, data_out:190}
+# @              280000 Load Test Fail :: Exp Data:166 Rec Data:166
+# 280000 SCP Data:'{data_in:166, load:1, enable:1, up_down:1, reset:1, data_out:190}
+# 300000 MTCP Data:'{data_in:166, load:0, enable:1, up_down:0, reset:1, data_out:189}
+# @              300000 countdown Test Pass
+# 300000 SCP Data:'{data_in:166, load:0, enable:1, up_down:0, reset:1, data_out:189}
+# 320000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 320000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 340000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 340000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 360000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 360000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 380000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 380000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 400000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 400000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 420000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 420000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 440000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 440000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 460000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 460000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 480000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 480000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 500000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 500000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 520000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 520000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 540000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 540000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 560000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 560000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 580000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 580000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 09:09:53 on Aug 11,2023, Elapsed time: 12:39:19
+# Errors: 0, Warnings: 3
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:10:10 on Aug 11,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 09:10:11 on Aug 11,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:10:21 on Aug 11,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 09:10:21 on Aug 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:29:32 on Aug 11,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(6)
+# ** at counter_scoreboard.sv(51): near ")": syntax error, unexpected ')'.
+# -- Compiling module counter_tb
+# -- Importing package pac
+# End time: 09:29:32 on Aug 11,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:29:54 on Aug 11,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(6)
+# ** at counter_scoreboard.sv(51): near ")": syntax error, unexpected ')'.
+# -- Compiling module counter_tb
+# -- Importing package pac
+# End time: 09:29:54 on Aug 11,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:30:01 on Aug 11,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 09:30:02 on Aug 11,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 09:30:05 on Aug 11,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+add wave -position end sim:/counter_tb/intf/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Zubayer  Hostname: DESKTOP-Q3IF0PJ  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlftyhsq89".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftyhsq89
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 60000 MTCP Data:'{data_in:325, load:1, enable:1, up_down:0, reset:1, data_out:325}
+# @               60000 Load Test Pass
+# 60000 SCP Data:'{data_in:325, load:1, enable:1, up_down:0, reset:1, data_out:325}
+# 80000 MTCP Data:'{data_in:241, load:1, enable:1, up_down:0, reset:1, data_out:241}
+# @               80000 Load Test Pass
+# 80000 SCP Data:'{data_in:241, load:1, enable:1, up_down:0, reset:1, data_out:241}
+# 100000 MTCP Data:'{data_in:41, load:1, enable:1, up_down:0, reset:1, data_out:41}
+# @              100000 Load Test Pass
+# 100000 SCP Data:'{data_in:41, load:1, enable:1, up_down:0, reset:1, data_out:41}
+# 120000 MTCP Data:'{data_in:20, load:1, enable:1, up_down:0, reset:1, data_out:20}
+# @              120000 Load Test Pass
+# 120000 SCP Data:'{data_in:20, load:1, enable:1, up_down:0, reset:1, data_out:20}
+# 140000 MTCP Data:'{data_in:107, load:1, enable:1, up_down:0, reset:1, data_out:107}
+# @              140000 Load Test Pass
+# 140000 SCP Data:'{data_in:107, load:1, enable:1, up_down:0, reset:1, data_out:107}
+# 160000 MTCP Data:'{data_in:161, load:1, enable:1, up_down:0, reset:1, data_out:161}
+# @              160000 Load Test Pass
+# 160000 SCP Data:'{data_in:161, load:1, enable:1, up_down:0, reset:1, data_out:161}
+# 180000 MTCP Data:'{data_in:117, load:1, enable:1, up_down:0, reset:1, data_out:117}
+# @              180000 Load Test Pass
+# 180000 SCP Data:'{data_in:117, load:1, enable:1, up_down:0, reset:1, data_out:117}
+# 200000 MTCP Data:'{data_in:414, load:1, enable:1, up_down:0, reset:1, data_out:414}
+# @              200000 Load Test Pass
+# 200000 SCP Data:'{data_in:414, load:1, enable:1, up_down:0, reset:1, data_out:414}
+# 220000 MTCP Data:'{data_in:21, load:1, enable:1, up_down:0, reset:1, data_out:21}
+# @              220000 Load Test Pass
+# 220000 SCP Data:'{data_in:21, load:1, enable:1, up_down:0, reset:1, data_out:21}
+# 240000 MTCP Data:'{data_in:188, load:1, enable:1, up_down:0, reset:1, data_out:188}
+# @              240000 Load Test Pass
+# 240000 SCP Data:'{data_in:188, load:1, enable:1, up_down:0, reset:1, data_out:188}
+# 260000 MTCP Data:'{data_in:188, load:0, enable:1, up_down:0, reset:1, data_out:187}
+# @              260000 countdown Test Pass
+# 260000 SCP Data:'{data_in:188, load:0, enable:1, up_down:0, reset:1, data_out:187}
+# 280000 MTCP Data:'{data_in:166, load:1, enable:1, up_down:0, reset:1, data_out:166}
+# @              280000 Load Test Pass
+# 280000 SCP Data:'{data_in:166, load:1, enable:1, up_down:0, reset:1, data_out:166}
+# 300000 MTCP Data:'{data_in:166, load:0, enable:1, up_down:1, reset:1, data_out:167}
+# @              300000 countup Test Pass
+# 300000 SCP Data:'{data_in:166, load:0, enable:1, up_down:1, reset:1, data_out:167}
+# 320000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 320000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 340000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 340000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 360000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 360000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 380000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 380000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 400000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 400000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 420000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 420000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 440000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 440000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 460000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 460000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 480000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 480000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 500000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 500000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 520000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 520000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 540000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 540000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 560000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 560000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 580000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 580000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 10:02:42 on Aug 11,2023, Elapsed time: 0:32:37
+# Errors: 0, Warnings: 3
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:05:24 on Aug 11,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(6)
+# ** at counter_scoreboard.sv(21): near "end": syntax error, unexpected end, expecting ';'.
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(6)
+# ** at counter_scoreboard.sv(48): near "else": syntax error, unexpected else.
+# ** Error (suppressible): ** while parsing file included at ./pac.sv(7)
+# ** at counter_enviroment.sv(3): (vlog-2388) 'mbx' already declared in this scope (scb_cap) at counter_scoreboard.sv(10).
+# ** Error: ** while parsing file included at ./pac.sv(7)
+# ** at counter_enviroment.sv(5): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(7)
+# ** at counter_enviroment.sv(10): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(2): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(4): (vlog-2730) Undefined variable: 'e'.
+# ** Error: (vlog-13069) ** while parsing file included at ./pac.sv(8)
+# ** at counter_testcl.sv(5): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# -- Compiling module counter_tb
+# -- Importing package pac
+# End time: 10:05:24 on Aug 11,2023, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+# I:/QuartusPrime/modelsim_ase/win32aloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:08:02 on Aug 11,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 10:08:02 on Aug 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 10:08:10 on Aug 11,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+add wave -position end sim:/counter_tb/intf/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Zubayer  Hostname: DESKTOP-Q3IF0PJ  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlft9nck7x".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft9nck7x
+add wave -r sim:/counter_tb/intf/*
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 60000 MTCP Data:'{data_in:325, load:1, enable:1, up_down:0, reset:1, data_out:325}
+# 60000 SCP Data:'{data_in:325, load:1, enable:1, up_down:0, reset:1, data_out:325}
+# 80000 MTCP Data:'{data_in:241, load:1, enable:1, up_down:0, reset:1, data_out:241}
+# 80000 SCP Data:'{data_in:241, load:1, enable:1, up_down:0, reset:1, data_out:241}
+# 100000 MTCP Data:'{data_in:41, load:1, enable:1, up_down:0, reset:1, data_out:41}
+# 100000 SCP Data:'{data_in:41, load:1, enable:1, up_down:0, reset:1, data_out:41}
+# 120000 MTCP Data:'{data_in:20, load:1, enable:1, up_down:0, reset:1, data_out:20}
+# 120000 SCP Data:'{data_in:20, load:1, enable:1, up_down:0, reset:1, data_out:20}
+# 140000 MTCP Data:'{data_in:107, load:1, enable:1, up_down:0, reset:1, data_out:107}
+# 140000 SCP Data:'{data_in:107, load:1, enable:1, up_down:0, reset:1, data_out:107}
+# 160000 MTCP Data:'{data_in:161, load:1, enable:1, up_down:0, reset:1, data_out:161}
+# 160000 SCP Data:'{data_in:161, load:1, enable:1, up_down:0, reset:1, data_out:161}
+# 180000 MTCP Data:'{data_in:117, load:1, enable:1, up_down:0, reset:1, data_out:117}
+# 180000 SCP Data:'{data_in:117, load:1, enable:1, up_down:0, reset:1, data_out:117}
+# 200000 MTCP Data:'{data_in:414, load:1, enable:1, up_down:0, reset:1, data_out:414}
+# 200000 SCP Data:'{data_in:414, load:1, enable:1, up_down:0, reset:1, data_out:414}
+# 220000 MTCP Data:'{data_in:21, load:1, enable:1, up_down:0, reset:1, data_out:21}
+# 220000 SCP Data:'{data_in:21, load:1, enable:1, up_down:0, reset:1, data_out:21}
+# 240000 MTCP Data:'{data_in:188, load:1, enable:1, up_down:0, reset:1, data_out:188}
+# 240000 SCP Data:'{data_in:188, load:1, enable:1, up_down:0, reset:1, data_out:188}
+# 260000 MTCP Data:'{data_in:188, load:0, enable:1, up_down:0, reset:1, data_out:187}
+# 260000 SCP Data:'{data_in:188, load:0, enable:1, up_down:0, reset:1, data_out:187}
+# 280000 MTCP Data:'{data_in:166, load:1, enable:1, up_down:0, reset:1, data_out:166}
+# 280000 SCP Data:'{data_in:166, load:1, enable:1, up_down:0, reset:1, data_out:166}
+# 300000 MTCP Data:'{data_in:166, load:0, enable:1, up_down:1, reset:1, data_out:167}
+# 300000 SCP Data:'{data_in:166, load:0, enable:1, up_down:1, reset:1, data_out:167}
+# 320000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 320000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 340000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 340000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 360000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 360000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 380000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 380000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 400000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 400000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 420000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 420000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 440000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 440000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 460000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 460000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 480000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 480000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 500000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 500000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 520000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 520000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 540000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 540000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 560000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 560000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 580000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# 580000 SCP Data:'{data_in:166, load:0, enable:0, up_down:1, reset:1, data_out:167}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 11:24:29 on Aug 11,2023, Elapsed time: 1:16:19
+# Errors: 0, Warnings: 3
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:24:36 on Aug 11,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 11:24:36 on Aug 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 11:24:40 on Aug 11,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+add wave -r sim:/counter_tb/intf/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Zubayer  Hostname: DESKTOP-Q3IF0PJ  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlft4nqchj".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4nqchj
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 60000 MTCP Data:'{data_in:325, load:1, enable:1, up_down:0, reset:1, data_out:325}
+# 60000 SCP Data:'{data_in:325, load:1, enable:1, up_down:0, reset:1, data_out:325}
+# 80000 MTCP Data:'{data_in:241, load:1, enable:1, up_down:0, reset:1, data_out:241}
+# 80000 SCP Data:'{data_in:241, load:1, enable:1, up_down:0, reset:1, data_out:241}
+# 100000 MTCP Data:'{data_in:41, load:1, enable:1, up_down:0, reset:1, data_out:41}
+# 100000 SCP Data:'{data_in:41, load:1, enable:1, up_down:0, reset:1, data_out:41}
+# 120000 MTCP Data:'{data_in:20, load:1, enable:1, up_down:0, reset:1, data_out:20}
+# 120000 SCP Data:'{data_in:20, load:1, enable:1, up_down:0, reset:1, data_out:20}
+# 140000 MTCP Data:'{data_in:107, load:1, enable:1, up_down:0, reset:1, data_out:107}
+# 140000 SCP Data:'{data_in:107, load:1, enable:1, up_down:0, reset:1, data_out:107}
+# 160000 MTCP Data:'{data_in:161, load:1, enable:1, up_down:0, reset:1, data_out:161}
+# 160000 SCP Data:'{data_in:161, load:1, enable:1, up_down:0, reset:1, data_out:161}
+# 180000 MTCP Data:'{data_in:117, load:1, enable:1, up_down:0, reset:1, data_out:117}
+# 180000 SCP Data:'{data_in:117, load:1, enable:1, up_down:0, reset:1, data_out:117}
+# 200000 MTCP Data:'{data_in:414, load:1, enable:1, up_down:0, reset:1, data_out:414}
+# 200000 SCP Data:'{data_in:414, load:1, enable:1, up_down:0, reset:1, data_out:414}
+# 220000 MTCP Data:'{data_in:21, load:1, enable:1, up_down:0, reset:1, data_out:21}
+# 220000 SCP Data:'{data_in:21, load:1, enable:1, up_down:0, reset:1, data_out:21}
+# 240000 MTCP Data:'{data_in:188, load:1, enable:1, up_down:0, reset:1, data_out:188}
+# 240000 SCP Data:'{data_in:188, load:1, enable:1, up_down:0, reset:1, data_out:188}
+# 260000 MTCP Data:'{data_in:188, load:0, enable:1, up_down:1, reset:1, data_out:189}
+# 260000 SCP Data:'{data_in:188, load:0, enable:1, up_down:1, reset:1, data_out:189}
+# 280000 MTCP Data:'{data_in:166, load:1, enable:1, up_down:1, reset:1, data_out:190}
+# @              280000 Load Test Fail :: Exp Data:166 Rec Data:166
+# 280000 SCP Data:'{data_in:166, load:1, enable:1, up_down:1, reset:1, data_out:190}
+# 300000 MTCP Data:'{data_in:166, load:0, enable:1, up_down:0, reset:1, data_out:189}
+# @              300000 countdown Test Fail :: Exp Data:187 Rec Data:189
+# 300000 SCP Data:'{data_in:166, load:0, enable:1, up_down:0, reset:1, data_out:189}
+# 320000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 320000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 340000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 340000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 360000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 360000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 380000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 380000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 400000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 400000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 420000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 420000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 440000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 440000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 460000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 460000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 480000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 480000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 500000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 500000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 520000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 520000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 540000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 540000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 560000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 560000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 580000 MTCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# 580000 SCP Data:'{data_in:166, load:0, enable:0, up_down:0, reset:1, data_out:189}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 11:27:59 on Aug 11,2023, Elapsed time: 0:03:19
+# Errors: 0, Warnings: 3
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:28:07 on Aug 11,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 11:28:07 on Aug 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 11:28:11 on Aug 11,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+add wave -r sim:/counter_tb/intf/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Zubayer  Hostname: DESKTOP-Q3IF0PJ  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlftyzn2s9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftyzn2s9
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 60000 MTCP Data:'{data_in:325, load:1, enable:1, up_down:0, reset:1, data_out:325}
+# 60000 SCP Data:'{data_in:325, load:1, enable:1, up_down:0, reset:1, data_out:325}
+# 80000 MTCP Data:'{data_in:241, load:1, enable:1, up_down:0, reset:1, data_out:241}
+# 80000 SCP Data:'{data_in:241, load:1, enable:1, up_down:0, reset:1, data_out:241}
+# 100000 MTCP Data:'{data_in:41, load:1, enable:1, up_down:0, reset:1, data_out:41}
+# 100000 SCP Data:'{data_in:41, load:1, enable:1, up_down:0, reset:1, data_out:41}
+# 120000 MTCP Data:'{data_in:20, load:1, enable:1, up_down:0, reset:1, data_out:20}
+# 120000 SCP Data:'{data_in:20, load:1, enable:1, up_down:0, reset:1, data_out:20}
+# 140000 MTCP Data:'{data_in:107, load:1, enable:1, up_down:0, reset:1, data_out:107}
+# 140000 SCP Data:'{data_in:107, load:1, enable:1, up_down:0, reset:1, data_out:107}
+# 160000 MTCP Data:'{data_in:161, load:1, enable:1, up_down:0, reset:1, data_out:161}
+# 160000 SCP Data:'{data_in:161, load:1, enable:1, up_down:0, reset:1, data_out:161}
+# 180000 MTCP Data:'{data_in:117, load:1, enable:1, up_down:0, reset:1, data_out:117}
+# 180000 SCP Data:'{data_in:117, load:1, enable:1, up_down:0, reset:1, data_out:117}
+# 200000 MTCP Data:'{data_in:414, load:1, enable:1, up_down:0, reset:1, data_out:414}
+# 200000 SCP Data:'{data_in:414, load:1, enable:1, up_down:0, reset:1, data_out:414}
+# 220000 MTCP Data:'{data_in:21, load:1, enable:1, up_down:0, reset:1, data_out:21}
+# 220000 SCP Data:'{data_in:21, load:1, enable:1, up_down:0, reset:1, data_out:21}
+# 240000 MTCP Data:'{data_in:188, load:1, enable:1, up_down:0, reset:1, data_out:188}
+# 240000 SCP Data:'{data_in:188, load:1, enable:1, up_down:0, reset:1, data_out:188}
+# 260000 MTCP Data:'{data_in:188, load:0, enable:1, up_down:1, reset:1, data_out:189}
+# 260000 SCP Data:'{data_in:188, load:0, enable:1, up_down:1, reset:1, data_out:189}
+# 280000 MTCP Data:'{data_in:166, load:1, enable:1, up_down:1, reset:1, data_out:190}
+# @              280000 Load Test Fail :: Exp Data:166 Rec Data:166
+# 280000 SCP Data:'{data_in:166, load:1, enable:1, up_down:1, reset:1, data_out:190}
+# 300000 MTCP Data:'{data_in:166, load:0, enable:1, up_down:0, reset:1, data_out:189}
+# @              300000 countdown Test Fail :: Exp Data:187 Rec Data:189
+# 300000 SCP Data:'{data_in:166, load:0, enable:1, up_down:0, reset:1, data_out:189}
+# 320000 MTCP Data:'{data_in:447, load:1, enable:1, up_down:0, reset:1, data_out:447}
+# 320000 SCP Data:'{data_in:447, load:1, enable:1, up_down:0, reset:1, data_out:447}
+# 340000 MTCP Data:'{data_in:447, load:0, enable:1, up_down:1, reset:1, data_out:448}
+# 340000 SCP Data:'{data_in:447, load:0, enable:1, up_down:1, reset:1, data_out:448}
+# 360000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:448}
+# 360000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:448}
+# 380000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 380000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 400000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:1, data_out:65535}
+# @              400000 countdown Test Fail :: Exp Data:4294967295 Rec Data:65535
+# 400000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:1, data_out:65535}
+# 420000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 420000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 440000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 440000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 460000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 460000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 480000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 480000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 500000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 500000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 520000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 520000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 540000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 540000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 560000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 560000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 580000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 580000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 11:31:46 on Aug 11,2023, Elapsed time: 0:03:35
+# Errors: 0, Warnings: 3
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:31:49 on Aug 11,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 11:31:49 on Aug 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 11:31:58 on Aug 11,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+add wave -r sim:/counter_tb/intf/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Zubayer  Hostname: DESKTOP-Q3IF0PJ  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlftycz8wg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftycz8wg
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 60000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 60000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 80000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 80000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 100000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 100000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 120000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 120000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 140000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 140000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 160000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 160000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 180000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 180000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 200000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 200000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 220000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 220000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 240000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 240000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 260000 MTCP Data:'{data_in:65336, load:0, enable:1, up_down:0, reset:1, data_out:65335}
+# 260000 SCP Data:'{data_in:65336, load:0, enable:1, up_down:0, reset:1, data_out:65335}
+# 280000 MTCP Data:'{data_in:15401, load:1, enable:1, up_down:0, reset:1, data_out:15401}
+# 280000 SCP Data:'{data_in:15401, load:1, enable:1, up_down:0, reset:1, data_out:15401}
+# 300000 MTCP Data:'{data_in:15401, load:0, enable:1, up_down:1, reset:1, data_out:15402}
+# 300000 SCP Data:'{data_in:15401, load:0, enable:1, up_down:1, reset:1, data_out:15402}
+# 320000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:15402}
+# 320000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:15402}
+# 340000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 340000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 360000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:1, data_out:65535}
+# @              360000 countdown Test Fail :: Exp Data:4294967295 Rec Data:65535
+# 360000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:1, data_out:65535}
+# 380000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 380000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 400000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 400000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 420000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 420000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 440000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 440000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 460000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 460000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 480000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 480000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 500000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 500000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 520000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 520000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 540000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 540000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 560000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 560000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 580000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 580000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 12:07:20 on Aug 11,2023, Elapsed time: 0:35:22
+# Errors: 0, Warnings: 3
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:07:36 on Aug 11,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 12:07:36 on Aug 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 12:07:40 on Aug 11,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+add wave -r sim:/counter_tb/intf/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Zubayer  Hostname: DESKTOP-Q3IF0PJ  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlft8ztf24".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8ztf24
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 60000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 60000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 80000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 80000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 100000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 100000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 120000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 120000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 140000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 140000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 160000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 160000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 180000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 180000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 200000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 200000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 220000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 220000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 240000 MTCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 240000 SCP Data:'{data_in:65336, load:1, enable:1, up_down:0, reset:1, data_out:65336}
+# 260000 MTCP Data:'{data_in:65336, load:0, enable:1, up_down:0, reset:1, data_out:65335}
+# 260000 SCP Data:'{data_in:65336, load:0, enable:1, up_down:0, reset:1, data_out:65335}
+# 280000 MTCP Data:'{data_in:22997, load:1, enable:1, up_down:0, reset:1, data_out:22997}
+# 280000 SCP Data:'{data_in:22997, load:1, enable:1, up_down:0, reset:1, data_out:22997}
+# 300000 MTCP Data:'{data_in:22997, load:0, enable:1, up_down:1, reset:1, data_out:22998}
+# 300000 SCP Data:'{data_in:22997, load:0, enable:1, up_down:1, reset:1, data_out:22998}
+# 320000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:22998}
+# 320000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:22998}
+# 340000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 340000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 360000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:1, data_out:65535}
+# @              360000 countdown Test Fail :: Exp Data:4294967295 Rec Data:65535
+# 360000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:1, data_out:65535}
+# 380000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 380000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 400000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 400000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 420000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 420000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 440000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 440000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 460000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 460000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 480000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 480000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 500000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 500000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 520000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 520000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 540000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 540000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 560000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 560000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 580000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 580000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 12:18:16 on Aug 11,2023, Elapsed time: 0:10:36
+# Errors: 0, Warnings: 3
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:18:27 on Aug 11,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 12:18:27 on Aug 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 12:18:30 on Aug 11,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 60000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 60000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 80000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 80000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 100000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 100000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 120000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 120000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 140000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 140000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 160000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 160000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 180000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 180000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 200000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 200000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 220000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 220000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 240000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 240000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 260000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 260000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 280000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 280000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 300000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 300000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 320000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 320000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 340000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 340000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 360000 MTCP Data:'{data_in:22997, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 360000 SCP Data:'{data_in:22997, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 380000 MTCP Data:'{data_in:22997, load:0, enable:1, up_down:1, reset:0, data_out:0}
+# 380000 SCP Data:'{data_in:22997, load:0, enable:1, up_down:1, reset:0, data_out:0}
+# 400000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 400000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 420000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 420000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 440000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 440000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 460000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 460000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 480000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 480000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 500000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 500000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 520000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 520000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 540000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 540000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 560000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 560000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 580000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 580000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 12:20:12 on Aug 11,2023, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 1
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:20:16 on Aug 11,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 12:20:17 on Aug 11,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 12:20:19 on Aug 11,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 60000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 60000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 80000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 80000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 100000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 100000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 120000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 120000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 140000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 140000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 160000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 160000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 180000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 180000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 200000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 200000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 220000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 220000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 240000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 240000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 260000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 260000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 280000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 280000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 300000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 300000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 320000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 320000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 340000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 340000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 360000 MTCP Data:'{data_in:464, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 360000 SCP Data:'{data_in:464, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 380000 MTCP Data:'{data_in:464, load:0, enable:1, up_down:1, reset:0, data_out:0}
+# 380000 SCP Data:'{data_in:464, load:0, enable:1, up_down:1, reset:0, data_out:0}
+# 400000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 400000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 420000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 420000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 440000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 440000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:0}
+# 460000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 460000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 480000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 480000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 500000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 500000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 520000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 520000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 540000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 540000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 560000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 560000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 580000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 580000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 12:21:40 on Aug 11,2023, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 1
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:21:42 on Aug 11,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 12:21:43 on Aug 11,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 12:21:45 on Aug 11,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 60000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 60000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 80000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 80000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 100000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 100000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 120000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 120000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 140000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 140000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 160000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 160000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 180000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 180000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 200000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 200000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 220000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 220000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 240000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 240000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:1, data_out:0}
+# 260000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:1, data_out:65535}
+# @              260000 countdown Test Fail :: Exp Data:4294967295 Rec Data:65535
+# 260000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:1, data_out:65535}
+# 280000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:1, data_out:65534}
+# @              280000 countdown Test Fail :: Exp Data:4294967295 Rec Data:65534
+# 280000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:1, data_out:65534}
+# 300000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:1, data_out:65533}
+# @              300000 countdown Test Fail :: Exp Data:4294967295 Rec Data:65533
+# 300000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:1, data_out:65533}
+# 320000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:1, data_out:65532}
+# @              320000 countdown Test Fail :: Exp Data:4294967295 Rec Data:65532
+# 320000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:1, data_out:65532}
+# 340000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:1, data_out:65531}
+# @              340000 countdown Test Fail :: Exp Data:4294967295 Rec Data:65531
+# 340000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:1, data_out:65531}
+# 360000 MTCP Data:'{data_in:464, load:1, enable:1, up_down:0, reset:1, data_out:464}
+# 360000 SCP Data:'{data_in:464, load:1, enable:1, up_down:0, reset:1, data_out:464}
+# 380000 MTCP Data:'{data_in:464, load:0, enable:1, up_down:1, reset:1, data_out:465}
+# 380000 SCP Data:'{data_in:464, load:0, enable:1, up_down:1, reset:1, data_out:465}
+# 400000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:465}
+# 400000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:465}
+# 420000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 420000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# 440000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:1, data_out:65535}
+# @              440000 countdown Test Fail :: Exp Data:4294967295 Rec Data:65535
+# 440000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:1, data_out:65535}
+# 460000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 460000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 480000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 480000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 500000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 500000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 520000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 520000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 540000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 540000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 560000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 560000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 580000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# 580000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:65535}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 12:25:33 on Aug 11,2023, Elapsed time: 0:03:48
+# Errors: 0, Warnings: 1
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:25:36 on Aug 11,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 12:25:36 on Aug 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 12:25:40 on Aug 11,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 60000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 60000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 80000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 80000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 100000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 100000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 120000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 120000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 140000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 140000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 160000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 160000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 180000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 180000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 200000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 200000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 220000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 220000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 240000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 240000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 260000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65535}
+# 260000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65535}
+# 280000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65534}
+# 280000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65534}
+# 300000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65533}
+# 300000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65533}
+# 320000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65532}
+# 320000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65532}
+# 340000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65531}
+# 340000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65531}
+# 360000 MTCP Data:'{data_in:464, load:1, enable:1, up_down:0, reset:0, data_out:464}
+# 360000 SCP Data:'{data_in:464, load:1, enable:1, up_down:0, reset:0, data_out:464}
+# 380000 MTCP Data:'{data_in:464, load:0, enable:1, up_down:1, reset:0, data_out:465}
+# 380000 SCP Data:'{data_in:464, load:0, enable:1, up_down:1, reset:0, data_out:465}
+# 400000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:465}
+# 400000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:465}
+# 420000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 420000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 440000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65535}
+# 440000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65535}
+# 460000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 460000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 480000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 480000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 500000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 500000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 520000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 520000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 540000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 540000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 560000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 560000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 580000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 580000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+add wave -r sim:/counter_tb/intf/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Zubayer  Hostname: DESKTOP-Q3IF0PJ  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlftmmkc52".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmmkc52
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 60000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 60000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 80000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 80000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 100000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 100000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 120000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 120000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+restart
+run
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 60000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 60000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 80000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 80000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 100000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 100000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 120000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 120000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 140000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 140000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 160000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 160000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 180000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 180000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 200000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 200000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 220000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 220000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 240000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 240000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+restart
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 60000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 60000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 80000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 80000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 100000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 100000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 120000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 120000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 140000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 140000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 160000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 160000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 180000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 180000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 200000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 200000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 220000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 220000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 240000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 240000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 260000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65535}
+# 260000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65535}
+# 280000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65534}
+# 280000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65534}
+# 300000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65533}
+# 300000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65533}
+# 320000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65532}
+# 320000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65532}
+# 340000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65531}
+# 340000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65531}
+# 360000 MTCP Data:'{data_in:464, load:1, enable:1, up_down:0, reset:0, data_out:464}
+# 360000 SCP Data:'{data_in:464, load:1, enable:1, up_down:0, reset:0, data_out:464}
+# 380000 MTCP Data:'{data_in:464, load:0, enable:1, up_down:1, reset:0, data_out:465}
+# 380000 SCP Data:'{data_in:464, load:0, enable:1, up_down:1, reset:0, data_out:465}
+# 400000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:465}
+# 400000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:465}
+# 420000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 420000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 440000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65535}
+# 440000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65535}
+# 460000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 460000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 480000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 480000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 500000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 500000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 520000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 520000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 540000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 540000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 560000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 560000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 580000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 580000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+quit -sim
+# End time: 12:30:48 on Aug 11,2023, Elapsed time: 0:05:08
+# Errors: 0, Warnings: 1
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:30:54 on Aug 11,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface Counter_Interface
+# -- Compiling package pac
+# -- Compiling module counter_tb
+# -- Importing package pac
+# 
+# Top level modules:
+# 	counter_tb
+# End time: 12:30:55 on Aug 11,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim counter_tb
+# vsim counter_tb 
+# Start time: 12:31:01 on Aug 11,2023
+# Loading sv_std.std
+# Loading work.Counter_Interface
+# Loading work.pac
+# Loading work.counter_tb
+# Loading work.counter
+run -all
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 60000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 60000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 80000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 80000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 100000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 100000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 120000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 120000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 140000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 140000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 160000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 160000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 180000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 180000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 200000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 200000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 220000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 220000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 240000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 240000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 260000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65535}
+# 260000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65535}
+# 280000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65534}
+# 280000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65534}
+# 300000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65533}
+# 300000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65533}
+# 320000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65532}
+# 320000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65532}
+# 340000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65531}
+# 340000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65531}
+# 360000 MTCP Data:'{data_in:65534, load:1, enable:1, up_down:0, reset:0, data_out:65534}
+# 360000 SCP Data:'{data_in:65534, load:1, enable:1, up_down:0, reset:0, data_out:65534}
+# 380000 MTCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:65535}
+# 380000 SCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:65535}
+# 400000 MTCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:0}
+# 400000 SCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:0}
+# 420000 MTCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:1}
+# 420000 SCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:1}
+# 440000 MTCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:2}
+# 440000 SCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:2}
+# 460000 MTCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:3}
+# 460000 SCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:3}
+# 480000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:3}
+# 480000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:3}
+# 500000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 500000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 520000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65535}
+# 520000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65535}
+# 540000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 540000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 560000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 560000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 580000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 580000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# 1
+# Break in Module counter_tb at ./counter_tb.sv line 30
+add wave sim:/counter_tb/intf/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Zubayer  Hostname: DESKTOP-Q3IF0PJ  ProcessID: 2752
+#           Attempting to use alternate WLF file "./wlftdknj1x".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftdknj1x
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# sb working
+# driver working
+# monitor working
+# ag working
+# env working
+# 20000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:x}
+# 20000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:x}
+# 40000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 40000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 60000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 60000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 80000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 80000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 100000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 100000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 120000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 120000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 140000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 140000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 160000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 160000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 180000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 180000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 200000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 200000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 220000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 220000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 240000 MTCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 240000 SCP Data:'{data_in:0, load:1, enable:1, up_down:0, reset:0, data_out:0}
+# 260000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65535}
+# 260000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65535}
+# 280000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65534}
+# 280000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65534}
+# 300000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65533}
+# 300000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65533}
+# 320000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65532}
+# 320000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65532}
+# 340000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65531}
+# 340000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65531}
+# 360000 MTCP Data:'{data_in:65534, load:1, enable:1, up_down:0, reset:0, data_out:65534}
+# 360000 SCP Data:'{data_in:65534, load:1, enable:1, up_down:0, reset:0, data_out:65534}
+# 380000 MTCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:65535}
+# 380000 SCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:65535}
+# 400000 MTCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:0}
+# 400000 SCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:0}
+# 420000 MTCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:1}
+# 420000 SCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:1}
+# 440000 MTCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:2}
+# 440000 SCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:2}
+# 460000 MTCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:3}
+# 460000 SCP Data:'{data_in:65534, load:0, enable:1, up_down:1, reset:0, data_out:3}
+# 480000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:3}
+# 480000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:3}
+# 500000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 500000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 520000 MTCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65535}
+# 520000 SCP Data:'{data_in:0, load:0, enable:1, up_down:0, reset:0, data_out:65535}
+# 540000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 540000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 560000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 560000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 580000 MTCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# 580000 SCP Data:'{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:65535}
+# ** Note: $finish    : ./counter_tb.sv(30)
+#    Time: 600 ns  Iteration: 1  Instance: /counter_tb
+# End time: 12:32:30 on Aug 11,2023, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 0

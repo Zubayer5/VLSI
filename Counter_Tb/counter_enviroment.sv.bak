@@ -1,0 +1,10 @@
+class environment;
+scoreboard sb;
+agent ag;
+	function new(virtual Counter_Interface intf);
+		sb=new();
+		ag=new(intf);
+		$display"env working";
+	endfunction
+endclass
+		

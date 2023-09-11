@@ -1,0 +1,8 @@
+class test;
+enviroment e;
+	function new(virtual Counter_Interface intf);
+		e=new(intf);
+		$display("test working");
+	endfunction
+endclass
+		

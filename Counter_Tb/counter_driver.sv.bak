@@ -1,0 +1,6 @@
+class driver;
+	function new(virtual Counter_Interface intf);
+		$display"driver working";	
+	endfunction
+endclass
+		
