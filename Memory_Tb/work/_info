@@ -1,0 +1,165 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Desktop/DV Training Final
+vcounter_tb_top
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+DXx4 work 14 memory_package 0 22 V2_FgLPdX;W6c`RSLm;k`2
+!s110 1691928644
+!i10b 1
+!s100 =DF]YSkTV2RMN1jf0z?^W2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`zVdo_a`JzLRQMQ<l@<iD2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1691928322
+Z4 8./memory_tb_top.sv
+Z5 F./memory_tb_top.sv
+!i122 0
+Z6 L0 2 26
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1691928644.000000
+Z8 !s107 memory_test.sv|memory_environment.sv|memory_scoreboard.sv|memory_agent.sv|memory_monitor.sv|memory_driver.sv|memory_stimulus.sv|./memory_tb_top.sv|./memory_package.sv|./memory_interface.sv|./memory_8x8_reset.sv|
+Z9 !s90 -reportprogress|300|-f|filelist.f|
+!i113 1
+Z10 tCvgOpt 0
+vmemory_8x8_faulty_read
+R1
+Z11 !s110 1691991844
+!i10b 1
+!s100 TEAe=^FlmM3mE>7^=og4o0
+R2
+I=fH5`AaBCU0gaizYU3eKW0
+R3
+S1
+R0
+w1691991834
+Z12 8./memory_8x8_reset.sv
+Z13 F./memory_8x8_reset.sv
+!i122 23
+L0 21 26
+R7
+r1
+!s85 0
+31
+Z14 !s108 1691991843.000000
+R8
+R9
+!i113 1
+R10
+vmemory_8x8_reset
+R1
+!s110 1691991608
+!i10b 1
+!s100 AP`ZiaZW^K1aTSfDGX2e]2
+R2
+IW=jjc0geXd[NAe>0OZ6@n1
+R3
+S1
+R0
+w1691866399
+R12
+R13
+!i122 22
+L0 21 25
+R7
+r1
+!s85 0
+31
+!s108 1691991608.000000
+R8
+R9
+!i113 1
+R10
+Ymemory_interface
+R1
+R11
+!i10b 1
+!s100 ^iZF9IaKVX^n`_zdzLVLR2
+R2
+Ik3J5fgjhSYB[gb[?J^D9Y3
+R3
+S1
+R0
+w1691928366
+8./memory_interface.sv
+F./memory_interface.sv
+!i122 23
+Z15 L0 1 0
+R7
+r1
+!s85 0
+31
+R14
+R8
+R9
+!i113 1
+R10
+Xmemory_package
+!s115 memory_interface
+R1
+R11
+!i10b 1
+!s100 :Kg>XzGTRFIL:aa`i?73c2
+R2
+ISlOhC6KCFPLm:]4d0HHMR3
+VSlOhC6KCFPLm:]4d0HHMR3
+S1
+R0
+w1691991599
+8./memory_package.sv
+F./memory_package.sv
+Fmemory_stimulus.sv
+Fmemory_driver.sv
+Fmemory_monitor.sv
+Fmemory_agent.sv
+Fmemory_scoreboard.sv
+Fmemory_environment.sv
+Fmemory_test.sv
+!i122 23
+R15
+R7
+r1
+!s85 0
+31
+R14
+R8
+R9
+!i113 1
+R10
+vmemory_tb_top
+R1
+DXx4 work 14 memory_package 0 22 SlOhC6KCFPLm:]4d0HHMR3
+R11
+!i10b 1
+!s100 Td3]Z82AQYW]DU8o]3h[d3
+R2
+I68:NRB<6A47JT=7BEP=[Z2
+R3
+S1
+R0
+w1691987768
+R4
+R5
+!i122 23
+R6
+R7
+r1
+!s85 0
+31
+R14
+R8
+R9
+!i113 1
+R10

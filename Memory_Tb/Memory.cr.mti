@@ -1,0 +1,7 @@
+{F:/Desktop/DV Training Final/memory_driver.sv} {0 {vlog -work work -sv -stats=none {F:/Desktop/DV Training Final/memory_driver.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+** Error: F:/Desktop/DV Training Final/memory_driver.sv(3): Invalid type 'memory_stimulus'. Please check the type of the variable 'exp_pkt'.
+** Error: F:/Desktop/DV Training Final/memory_driver.sv(13): (vlog-2730) Undefined variable: 'exp_pkt'.
+** Error: (vlog-13069) F:/Desktop/DV Training Final/memory_driver.sv(44): near "EOF": syntax error, unexpected end of source code, expecting function or task or "SystemVerilog keyword 'pure'".
+
+} {3.0 6.0} {}}
